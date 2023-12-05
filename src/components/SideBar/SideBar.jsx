@@ -1,8 +1,12 @@
 import * as React from "react";
-import data from "../../../data.json";
 import styles from "./SideBar.module.css";
+
+import data from "../../../data.json";
 import * as IoIcons from "react-icons/io";
 import { RxSwitch } from "react-icons/rx";
+
+
+
 
 const style = { color: "white", fontSize: "1.2em" }
 
