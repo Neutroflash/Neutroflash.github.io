@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "image": "../src/assets/myPhoto.jpeg",
+        "class": "myPhoto"
+    },
+    {
+        "id": 1,
+        "image": "url",
+        "text": "Neutroflash"
+    },
+    {
+        "id": 2,
+        "image": "url",
+        "text": "Inicio"
+    },
+    {
+        "id": 3,
+        "image": "url",
+        "text": "Acerca de Mi"
+    },
+    {
+        "id": 4,
+        "image": "url",
+        "text": "Conocimientos"
+    },
+    {
+        "id": 5,
+        "image": "url",
+        "text": "Proyectos"
+    },
+    {
+        "id": 6,
+        "image": "url",
+        "text": "Contactame"
+    }
+]

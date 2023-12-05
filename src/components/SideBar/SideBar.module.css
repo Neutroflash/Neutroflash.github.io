@@ -1,0 +1,15 @@
+.sideBar {
+    display: inline-flex;
+    background-color: rgb(136, 116, 116);
+    height: 100vh;
+}
+
+.sideBar_item {
+    display: flex;
+    align-items: center;
+}
+
+.myPhoto {
+    max-width: 100%;
+    height: 200px;
+}
