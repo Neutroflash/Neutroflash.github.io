@@ -6,32 +6,41 @@
     },
     {
         "id": 1,
-        "image": "url",
-        "text": "Neutroflash"
+        "icon": "IoLogoGithub",
+        "text": "Neutroflash",
+        "class": "sideBar_link"
     },
     {
         "id": 2,
-        "image": "url",
-        "text": "Inicio"
+        "icon": "IoIosHome",
+        "text": "Inicio",
+        "class": "sideBar_link"
     },
     {
         "id": 3,
-        "image": "url",
-        "text": "Acerca de Mi"
+        "icon": "IoIosContact",
+        "text": "Acerca de Mi",
+        "class": "sideBar_link"
     },
     {
         "id": 4,
-        "image": "url",
-        "text": "Conocimientos"
+        "icon": "IoIosBulb",
+        "text": "Conocimientos",
+        "class": "sideBar_link"
     },
     {
         "id": 5,
-        "image": "url",
-        "text": "Proyectos"
+        "icon": "IoIosCode",
+        "text": "Proyectos",
+        "class": "sideBar_link"
     },
     {
         "id": 6,
-        "image": "url",
-        "text": "Contactame"
+        "icon": "IoIosMail",
+        "text": "Contactame",
+        "class": "sideBar_link"
+    },
+    {
+        "id": 7
     }
 ]
