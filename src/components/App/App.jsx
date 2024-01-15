@@ -1,12 +1,20 @@
 import * as React from "react";
+
 import SideBar from "../SideBar/SideBar"
-import "./App.module.css"
+import Hero from "../Hero/Hero";
+import About from "../About/About";
+
+import styles from "./App.module.css"
 
 function App() {
   return (
-    <>
-    <SideBar/>
-    </>
+    <div id="root" className={styles.root}>
+      <SideBar/>
+      <div className={styles.myInfo}>
+        <Hero/>
+        <About/>
+      </div>
+    </div>
   )
 }
 
