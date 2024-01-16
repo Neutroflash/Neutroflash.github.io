@@ -8,7 +8,7 @@ import { RxSwitch } from "react-icons/rx";
 
 
 
-const style = { color: "white", fontSize: "1.2em" }
+const style = { color: "#4831D4", fontSize: "1.2em" }
 
 const SideBar = () => {
   const [initial, setInitial] = React.useState(true);
