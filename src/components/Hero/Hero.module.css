@@ -1,9 +1,20 @@
 .hero {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #CCF381;
     width: 100%;
     height: 100vh;
+}
+
+.hero p {
+    color: #4831d4;
+    font-size: 20px;
+}
+
+.hero h1 {
+    color: #3d155f;
+    font-size: 30px;
+    letter-spacing: 7px;
 }
 
 .heroText {
@@ -11,5 +22,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    
 }

@@ -5,9 +5,12 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
-  color: white;
 }
 
 ul {
@@ -23,6 +26,7 @@ ul {
 
 .myInfo {
   display: flex;
+  margin-left: 300px;
   flex-direction: column;
   width: 100%;
 }
