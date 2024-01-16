@@ -1,13 +1,11 @@
 .sideBar {
     position: fixed;
     display: inline-flex;
-    background-color: #4831D4;
+    background-color: #CCF381;
     height: 100vh;
-    transition: width 0.3s ease;
+    letter-spacing: 1px;
+    color: #4831D4;
     font-size: 14px;
-    letter-spacing: 0.5px;
-    color: #CCF381;
-    font-size: 15px;
     font-weight: 900;
     box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
 }

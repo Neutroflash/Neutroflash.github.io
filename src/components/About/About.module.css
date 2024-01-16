@@ -6,3 +6,24 @@
     align-items: center;
     text-align: center;
 }
+
+.aboutText h1 {
+    color: #4831d4;
+}
+
+.aboutText p {
+    color: #3d155f;
+}
+
+.aboutText {
+    padding: 20px 60px 20px 60px;
+}
+
+.aboutText p{
+    text-align: left;
+}
+
+.aboutImages {
+    background-color: white;
+}
+
