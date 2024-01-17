@@ -6,6 +6,7 @@ import About from "../About/About";
 import Skills from "../Skills";
 import Footer from "../Footer";
 import Projects from "../Projects";
+import Building from "../Building/Building";
 
 import styles from "./App.module.css"
 
@@ -17,8 +18,6 @@ function App() {
         <Hero/>
         <About/>
         <Skills/>
-        <Projects/>
-        <Footer/>
       </div>
     </div>
   )
