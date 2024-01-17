@@ -1,4 +1,9 @@
 import * as React from "react"
+
+import image2 from "../../assets/photo1.jpeg"
+import image1 from  "../../assets/photo2.jpeg"
+import image3 from "../../assets/memories.jpeg"
+
 import styles from "./About.module.css"
 
 const About = () => {
@@ -12,7 +17,9 @@ const About = () => {
                 <p>En mí encontrarás no solo habilidades técnicas, sino también una inquebrantable voluntad de aprender y mejorar constantemente. Mi motivación se refleja en cada línea de código que escribo y en cada proyecto en el que me embarco. Estoy emocionado por la oportunidad de unirme a tu equipo, contribuir con mi experiencia y seguir creciendo juntos en este apasionante mundo tecnológico. ¡Hagamos cosas increíbles juntos!</p>
             </div>
             <div className={styles.aboutImages}>
-                
+                <img className={styles.image1} src={image1} alt="image1"/>
+                <img className={styles.image1} src={image2} alt="image2"/>
+                <img className={styles.image2} src={image3} alt="image3"/>
             </div>
         </div>
     )
