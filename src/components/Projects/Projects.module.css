@@ -1,0 +1,34 @@
+.projects {
+    position: relative;
+    display: flex;
+    background-color: #F9F9F9;  
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    padding: 0 20px;
+  }
+  
+  .projectsText {
+    padding: 20px 80px;
+  }
+  
+  .projects h1 {
+    font-size: 3em;
+    color: #4831d4;
+  }
+
+  .boxProjects {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .mySwiper {
+    width: 100vh;
+  }
+  
+  .mySwiper img {
+    width: 500px;
+  }
+  
