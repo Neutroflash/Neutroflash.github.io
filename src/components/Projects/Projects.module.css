@@ -14,7 +14,6 @@
 .boxProjects {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   border-radius: 50px;
   justify-content: center;
   margin: auto;
@@ -49,4 +48,15 @@
 
 .projectText {
   white-space: pre-line;
+}
+
+.mySwiper {
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  padding: 40px 0;
+}
+
+.swiperBox {
+  padding: 60px 0;
 }
