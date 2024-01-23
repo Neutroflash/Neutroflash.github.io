@@ -37,22 +37,3 @@
     animation: neonAnimation 2s ease-in-out infinite alternate, move 2s linear infinite;
     letter-spacing: 4px;
 }
-
-@keyframes neonAnimation {
-    0% {
-        text-shadow: none;
-    }
-    100% {
-        text-shadow: 3px 3px 0 #dca2f6, 6px 6px 0 #d890f4,
-            9px 9px 0 #c37df2, 12px 12px 0 #d56af0;
-    }
-}
-
-@keyframes move {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(10px);
-    }
-}
