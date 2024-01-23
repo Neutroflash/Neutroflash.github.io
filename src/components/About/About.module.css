@@ -5,17 +5,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #1d1d1f;
     padding: 0 20px 0 20px;
 }
 
 .aboutText h1 {
     font-size: 2.1rem;
     text-transform: uppercase;
-    color: #4831d4;
-}
-
-.aboutText p {
-    color: #3d155f;
+    letter-spacing: -0.03em;
+    font-weight: 900;
 }
 
 .aboutText {

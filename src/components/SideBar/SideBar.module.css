@@ -1,7 +1,7 @@
 .sideBar {
   position: fixed;
   display: inline-flex;
-  background-color: black;
+  background-color: #121212;
   height: 100vh;
   letter-spacing: 1px;
   font-size: 14px;
@@ -9,7 +9,7 @@
 }
 
 .sideBar p {
-    color: #CCF381;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .sideBar_item {
