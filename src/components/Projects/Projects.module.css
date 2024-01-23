@@ -8,6 +8,7 @@
 
 .projects p {
   font-size: .8rem;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .boxProjects {
@@ -23,10 +24,16 @@
 .projectCard {
   text-align: left;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20);
+  height: 550px;
 }
 
 .projectInfo {
   padding: 0 16px;
+}
+
+.projectInfo h2 {
+  font-family: 'Roboto';
+  text-transform: uppercase;
 }
 
 .projectImage {

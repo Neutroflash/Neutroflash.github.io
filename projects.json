@@ -25,14 +25,14 @@
     "bg": "../src/assets/projects-background/social.png",
     "title": "Social Media App",
     "tecnologias": "React JS - Appwrite - Tailwind CSS - React Query",  
-    "descripcion": "Social Media App es una aplicación de redes sociales desarrollada con \n React JS, Appwrite, Tailwind CSS y React Query. Ofrece una experiencia\n interactiva y eficiente, con funciones de backend gestionadas por \n Appwrite y un diseño atractivo gracias a Tailwind CSS. Este proyecto \ndestaca habilidades en el desarrollo web moderno y la creación\n de interfaces de usuario funcionales."
+    "descripcion": "Social Media App es una aplicación de redes sociales desarrollada con \n React JS, Appwrite, Tailwind CSS y React Query. Ofrece una \n experiencia interactiva y eficiente, con funciones de backend \n gestionadas por Appwrite y un diseño atractivo gracias \n a Tailwind CSS. Este proyecto destaca habilidades en el \ndesarrollo web moderno y la creación de interfaces de usuario \nfuncionales."
   },
   {
     "id": 4,
     "bg": "../src/assets/projects-background/chat.jpg",
     "title": "Chat en Tiempo Real",
     "tecnologias": "Express - React Js - Node JS - PostgreSQL",
-    "descripcion": "Chat en Tiempo Real es una aplicación de mensajería instantánea \nconstruida con Express, React Js, Node JS y PostgreSQL. Ofrece una \n experiencia de chat eficiente y en tiempo real, destacando habilidades\n en el desarrollo de aplicaciones interactivas y la gestión de \ncomunicación simultánea."
+    "descripcion": "Chat en Tiempo Real es una aplicación de mensajería instantánea \nconstruida con Express, React Js, Node JS y PostgreSQL. Ofrece una \n experiencia de chat eficiente y en tiempo real, destacando \nhabilidades en el desarrollo de aplicaciones interactivas y \nla gestión de comunicación simultánea."
   },
   {
     "id": 5,
