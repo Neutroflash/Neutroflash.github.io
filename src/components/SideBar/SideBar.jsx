@@ -5,7 +5,7 @@ import data from "../../../data.json";
 import * as IoIcons from "react-icons/io";
 import { RxSwitch } from "react-icons/rx";
 
-const style = { color: "#4831D4", fontSize: "1.2em" }
+const style = { color: "  #CCF381", fontSize: "1.2em" }
 
 const SideBar = () => {
   const [initial, setInitial] = React.useState(true);

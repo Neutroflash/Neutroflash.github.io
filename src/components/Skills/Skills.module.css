@@ -1,54 +1,55 @@
 .skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #4831D4;
-    text-align: center;
-    padding: 20px 80px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  padding: 20px 80px 20px 80px;
 }
 
 .skills h1 {
-    color: #CCF381;
-    font-size: 3em;
-    font-weight: 900;
+  color: #ccf381;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .skillsLogos {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    gap: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 90px;
 }
 
 .logoContainer {
-    text-align: center;
-    margin: 10px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .logo {
-    width: 100px; 
-    height: 100px; 
-    margin-bottom: 10px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .logoText {
-    font-size: 16px;
-    font-weight: 900;
-    color: white;
-  }
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
 
-  .logoContainer:hover,
-  .logoContainer:focus {
-    transform: scale(1.1);
-  }
-  
-  .logoContainer:hover .logo,
-  .logoContainer:focus .logo {
-    transform: scale(1.1);
-  }
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logoText {
+  font-size: 16px;
+  font-weight: 900;
+  color: white;
+}
+
+.logoContainer:hover,
+.logoContainer:focus {
+  transform: scale(1.1);
+}
+
+.logoContainer:hover .logo,
+.logoContainer:focus .logo {
+  transform: scale(1.1);
+}
