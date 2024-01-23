@@ -5,12 +5,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
     padding: 0 20px 0 20px;
 }
 
 .aboutText h1 {
-    font-size: 3em;
+    font-size: 2.1rem;
+    text-transform: uppercase;
     color: #4831d4;
 }
 
@@ -24,22 +24,4 @@
 
 .aboutText p{
     text-align: left;
-}
-
-.aboutImages {
-    background-color: white;
-    margin: 0 50px 0 50px;
-    padding: 40px 80px;
-    display: flex;
-    gap: 30px;
-}
-
-.image1 {
-    height: 400px;
-    border-radius: 5px;
-}
-
-.image2 {
-    height: 400px;
-    border-radius: 5px;
 }
