@@ -1,12 +1,11 @@
 .about {
     display: flex;
-    background-color: #F9F9F9;  
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #F9F9F9;  
+    height: 100vh; 
     color: #1d1d1f;
-    padding: 0 20px 0 20px;
 }
 
 .aboutText h1 {
@@ -17,9 +16,29 @@
 }
 
 .aboutText {
+    margin: 20px;
     padding: 20px 80px 20px 80px;
 }
 
-.aboutText p{
+.aboutText p {
     text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+    .about {
+        padding: 0;
+        height: 100%;
+    }
+
+    .aboutText {
+        padding: 0;
+    }
+
+    .aboutText h1 {
+        font-size: 1.5rem;
+    }
+
+    .aboutText p {
+        font-size: 13px;
+    }
 }

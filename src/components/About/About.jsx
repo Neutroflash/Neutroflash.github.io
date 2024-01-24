@@ -3,7 +3,7 @@ import styles from "./About.module.css"
 
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id ="section3">
             <div className={styles.aboutText}>
                 <h1>Acerca de mi</h1>
                 <p>¡Hola! Soy Miguel Lorenzo, un apasionado del mundo de la tecnología desde temprana edad. Mi fascinación comenzó a los 5 años cuando recibí mi primera PC con Windows XP, marcando el inicio de mi viaje en este emocionante campo. A los 12 años, sin saberlo, ya estaba inmerso en la programación con Scratch, y más adelante, desafiándome a desarrollar un servidor de Minecraft en Java, incluso antes de comprender por completo qué era Java y Bukkit.</p>

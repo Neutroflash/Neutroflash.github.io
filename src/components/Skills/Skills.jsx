@@ -5,7 +5,7 @@ import images from "../../../images.json";
 
 const Skills = () => {
   return (
-    <div className={styles.skills}>
+    <div className={styles.skills} id="section4">
       <h1>Conocimientos</h1>
       <div className={styles.skillsLogos}>
         {images.map((item) => (

@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: black;
   text-align: center;
-  padding: 20px 80px 20px 80px;
+  height: 100vh;
 }
 
 .skills h1 {
@@ -22,7 +23,7 @@
   border-radius: 50px;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 0 auto 0 auto;
   gap: 90px;
 }
 
@@ -53,4 +54,35 @@
 .logoContainer:hover .logo,
 .logoContainer:focus .logo {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 640px) {
+  .skills {
+    height: 100%;
+    gap: 30px;
+  }
+
+  .skills h1 {
+    font-size: 1.5rem;
+  }
+
+  .skillsLogos {
+    gap: 90px;
+    width: auto;
+  }
+
+  @keyframes breathe {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    animation: breathe 2s infinite alternate ease-in-out;
+  }
 }

@@ -35,3 +35,27 @@
     width: 40px;
     height: 40px;
 }
+
+@media screen and (max-width: 640px) {
+    .footer {
+        padding: 40px 20px 40px 20px;;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer h1 {
+        font-size: 1.5rem;
+    }
+     
+    .footerItems {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .logoFooter {
+        width: 30px;
+        height: 30px;
+    }
+}
