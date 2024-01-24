@@ -12,13 +12,21 @@ import projects from "../../../projects.json";
 
 const Projects = () => {
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects} id="section5">
       <h1>Proyectos</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={2}
+        breakpoints={{
+          250: {
+            slidesPerView: 0.5
+          },
+          640: {
+            slidesPerView: 2,
+          }}
+        }
         coverflowEffect={{
           rotate: 30,
           stretch: 40,

@@ -2,13 +2,15 @@
   display: flex;
   background-color: #f9f9f9;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 40px 20px;
+  height: 100vh;
 }
 
 .projects p {
-  font-size: .8rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .boxProjects {
@@ -22,7 +24,7 @@
 
 .projectCard {
   text-align: left;
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   height: 550px;
 }
 
@@ -31,7 +33,7 @@
 }
 
 .projectInfo h2 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   text-transform: uppercase;
 }
 
@@ -42,7 +44,7 @@
 
 .projects h1 {
   font-size: 2.1rem;
-  letter-spacing: -0.03em; 
+  letter-spacing: -0.03em;
   color: #1d1d1f;
   text-transform: uppercase;
 }
@@ -54,10 +56,40 @@
 .mySwiper {
   background-position: center;
   background-size: cover;
-  width: 1200px;
+  width: 90%;
+  max-width: 1200px;
+  margin-inline: auto;
   padding: 40px 0;
 }
 
 .swiperBox {
   padding: 60px 0;
+}
+
+@media screen and (max-width: 640px) {
+  .projects {
+    height: 100%;
+  }
+
+  .projects h1 {
+    font-size: 1.5rem;
+  }
+  
+  .projectCard {
+    width: 350px;
+  }
+
+  .projects p {
+    font-size: 11px;
+  }
+
+  .projectImage {
+    width: 350px;
+    height: 150px;
+  }
+
+  .mySwiper {
+    width: 95%;
+    max-width: 400px;
+  }
 }

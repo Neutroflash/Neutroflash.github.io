@@ -5,7 +5,7 @@ import logos from "../../../contact.json";
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.footer} id="section6">
       <h1>CONTÁCTAME</h1>
       <div className={styles.footerItems}>
         {logos.map((item) => (

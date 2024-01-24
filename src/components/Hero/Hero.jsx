@@ -3,7 +3,7 @@ import styles from "./Hero.module.css";
 
 const Hero = () => {
     return (
-        <div className={styles.hero}>
+        <div className={styles.hero} id="section2">
             <div className={styles.heroText}>
                 <p>Hola Mundo!</p>
                 <h1>Soy Miguel Lorenzo</h1>
